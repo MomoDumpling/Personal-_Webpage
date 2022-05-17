@@ -65,7 +65,7 @@ p{
 .menu{
     list-style: none;
     font-family: cursive;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     cursor: pointer;
@@ -82,4 +82,14 @@ p{
 }
 .links:hover{
     background-color: aqua;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: fuchsia;
+    font-size: 25px;
 }
